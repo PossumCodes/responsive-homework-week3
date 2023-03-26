@@ -83,6 +83,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 
 .email-link:hover {
@@ -95,5 +96,38 @@ p {
 
 .homepage-paragraph {
   background: none;
-  text-align: left;
+  text-align: center;
+}
+
+.yogurt-app-link {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  .yoga-project,
+  .weather-project,
+  .yogurt-project {
+    padding-bottom: 25px;
+  }
 }
